@@ -20,11 +20,11 @@ body {
 }
 
 .bg-dark {
-  background-color: #12002b;
+  background-color: #dfe6ed;
   height: 100vh;
 }
 .edit-form{
-border: 1px solid black;
+
   display: flex;
   justify-content: center;
  flex-direction: column;
@@ -69,12 +69,13 @@ justify-content: center;
 .main-nav-item {
   text-decoration: none;
   margin-right: 0.5rem;
-  border: none;
+  border:none;
+  background: none;
+
 }
 
 .main-nav-item:hover {
   text-decoration: underline;
-
 }
 
 .main-nav-logo {
@@ -85,13 +86,14 @@ justify-content: center;
 .main-nav-logo-image {
   max-width: 100%;
   width: 200px;
-  
+}
+h1{
+padding-top: 50px;
+font-weight: 540;
 }
 
-
-
 .hero {
-  background-image: url('../img/bank-tree.jpeg');
+  background-image: url('../assets/bank-tree.jpeg');
   background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -204,7 +206,6 @@ justify-content: center;
 
 .input-remember label {
   margin-left: 0.25rem;
-  
 }
 
 .input-wrapper {
@@ -212,7 +213,6 @@ justify-content: center;
   flex-direction: column;
   text-align: left;
   margin-bottom: 1rem;
-  
 }
 
 .input-wrapper label {
@@ -222,7 +222,9 @@ justify-content: center;
 .input-wrapper input {
   padding: 5px;
   font-size: 1.2rem;
-
+  border: 1px #b7c5ce solid;
+  padding: 10px;
+  margin: 8px;
 }
 
 .footer {
@@ -275,17 +277,41 @@ justify-content: center;
 }
 
 .edit-button {
-  border-color: #00bc77;
-  background-color: #00bc77;
-  color: #fff;
+  border-color: #5961ef;
+  background-color: white;
+  border-radius: 4px;
+  color: #5961ef;
   font-weight: bold;
   padding: 10px;
 }
 
 .header {
-  color: #fff;
+  color: black;
   margin-bottom: 2rem;
 }
+
+.save-button{   border-color: #5961ef;
+  background-color: white;
+  border-radius: 4px;
+  font-weight:bolder;
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+  color: #5961ef;
+
+}
+
+.cancel-button{  border-color: #5961ef;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+  color: #5961ef;
+  margin-left: 10px;
+}
+
 
 .transaction-button {
   display: block;
@@ -294,8 +320,9 @@ justify-content: center;
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: 1rem;
-  border-color: #00bc77;
-  background-color: #00bc77;
+border: none;
+  background-color: #5961ef;
+  border-radius: 5px;
   color: #fff;
 }
 
